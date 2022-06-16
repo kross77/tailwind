@@ -1,0 +1,65 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "eBRRcyRQJe2heyEean487E",
+      "projectApiToken": "0GkqfaH4ax1e4MvtCuCacy8J92F8Vg2s8H2fsgyTEMgrTNCJJ5eP4MjGELBBgvPNTXuJMGnl51Zt92meIwg",
+      "projectName": "Tailwind demo",
+      "version": "latest",
+      "cssFilePath": "plasmic/tailwind_demo/plasmic_tailwind_demo.module.css",
+      "components": [
+        {
+          "id": "5H9RWLkahVvK",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "eBRRcyRQJe2heyEean487E",
+          "renderModuleFilePath": "plasmic/tailwind_demo/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "Homepage.tsx"
+          },
+          "cssFilePath": "plasmic/tailwind_demo/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "ZfUU4XgTBWdWL",
+        "name": "Screen",
+        "projectId": "eBRRcyRQJe2heyEean487E",
+        "contextFilePath": "plasmic/tailwind_demo/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.182",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.182/dist/plasmic.schema.json"
+}
